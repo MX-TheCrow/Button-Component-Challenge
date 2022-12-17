@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Component</title>
+    <link rel="stylesheet" href="styles/style_1.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <button class="b-1">Buttons</button>
+ <!-- gray group -->
+    <div class="gray_group">
+        <div class="first_2btn_gray">
+            <button class="gray_1">&lt;Button /&gt;</button>
+            <button class="gray_2 r_border"><p> Default</p></button>
+        </div>
+        <div class="second_2btn_gray">
+            <button class="gray_3">&:hover, &:focus</button>
+            <button class="gray_4 r_border"><p>Default</p></button>
+        </div>
+    </div>
+<!-- transparent blue group -->
+<div class="transparent_blue_group">
+    <div class="first_2btn_transparent_blue">
+        <button class="transparent_blue_1">&lt;Button variant="outline" /&gt;</button>
+        <button class="transparent_blue_2"><p> Default</p></button>
+    </div>
+    <div class="second_2btn_transparent_blue">
+        <button class="transparent_blue_3">&:hover, &:focus</button>
+        <button class="transparent_blue_4"><p>Default</p></button>
+    </div>
+</div>
+<!-- no_back_group -->
+<div class="no_back">
+    <div class="first_2btn_no_back">
+        <button class="no_back_1">&lt;Button variant="text" /&gt;</button>
+        <button class="no_back_2"><p> Default</p></button>
+    </div>
+    <div class="second_2btn_no_back">
+        <button class="no_back_3">&:hover, &:focus</button>
+        <button class="no_back_4 r_border"><p>Default</p></button>
+    </div>
+</div>
+<!-- single_btn -->
+<div class="single_btn">
+    <button class="single_btn_1">&lt;Button disableShadow /&gt;</button>
+    <button class="single_btn_2"><p> Default </p></button>
+</div>
+
+<!-- hidden_group-->
+<div class="hidden_group">
+    <div class="first_2btn_hidden">
+        <button class="hidden_1">&lt;Button disabled /&gt;</button>
+        <button class="hidden_2 r_border"><p> Disabled</p></button>
+    </div>
+    <div class="second_2btn_hidden">
+        <button class="hidden_3">&lt;Button variant="text" disabled/&gt;</button>
+        <button class="hidden_4"><p>Disabled</p></button>
+    </div>
+</div>
+<!-- icon_group-->
+<div class="icon_group">
+    <div class="first_2btn_icon">
+        <button class="icon_1">&lt;Button startIcons="Local_grocery_store"/&gt;</button>
+        <button class="icon_2 r_border"><img src="icons/icons8-shopping-cart-50.png"> <p> Default</p></button>
+    </div>
+    <div class="second_2btn_icon">
+        <button class="icon_3">&lt;Button endIcon="Local_grocery_store" /&gt;</button>
+        <button class="icon_4 r_border"><p>Default</p> <img src="icons/icons8-shopping-cart-50.png"> </button>
+    </div>
+</div>
+<!-- group_of_six -->
+<div class="group_of_six">
+    <div class="first_2btn_group_6">
+        <button class="group_6_1">&lt;Button size="sm" /&gt;</button>
+        <button class="group_6_2 r_border"><p> Default</p></button>
+    </div>
+    <div class="second_2btn_group_6">
+        <button class="group_6_3">&lt;Button size="md" /&gt;</button>
+        <button class="group_6_4 r_border"><p>Default</p></button>
+    </div>
+    <div class="third_2btn_group_6">
+        <button class="group_6_5">&lt;Button size="lg" /&gt;</button>
+        <button class="group_6_6 r_border"><p>Default</p></button>
+    </div>
+</div>
+<!-- group_of_4_1 -->
+<div class="group_of_4_1">
+    <div class="first_2btn_group_4_1">
+        <button class="group_4_1_1">&lt;Button color="default" /&gt;</button>
+        <button class="group_4_1_2 r_border"><p> Default</p></button>
+    </div>
+    <div class="second_2btn_group_4_1">
+        <button class="group_4_1_3">&lt;Button color="primary" /&gt;</button>
+        <button class="group_4_1_4 r_border"><p>Default</p></button>
+    </div>
+    <div class="third_2btn_group_4_1">
+        <button class="group_4_1_5">&lt;Button color="secondary" /&gt;</button>
+        <button class="group_4_1_6 r_border"><p>Secondary</p></button>
+    </div>
+    <div class="fourth_2btn_group_4_1">
+        <button class="group_4_1_7">&lt;Button color="danger" /&gt;</button>
+        <button class="group_4_1_8 r_border"><p>Danger</p></button>
+    </div>
+</div>
+<!-- group_of_4 -->
+<div class="group_of_4">
+    <div class="first_2btn_group_4">
+        <button class="group_4_1">&:hover, &focus</button>
+        <button class="group_4_2 r_border"><p> Default</p></button>
+    </div>
+        <button class="group_4_3"><p>Default</p></button>
+
+        <button class="group_4_4 r_border"><p>Secondary</p></button>
+
+        <button class="group_4_5 r_border"><p>Danger</p></button>
+    </div>
+</div>
+<!-- url -->
+<a href="https://material.io/resources/icons/?style=round" class="link">Icons: https://material.io/resources/icons/?style=round</a>
+<!-- text -->
+<p class="para">created by <u><b>Mohamad Harmouche</b></u> - devChallenges.io </p>
+
+</body>
+</html>
